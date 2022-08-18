@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8A8CE8"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_marginTop="20dp"
+        android:background="#E8DDB5"
+        android:fontFamily="@font/aldrich"
+        android:padding="5dp"
+        android:text="CALCULATE YOUR"
+        android:textColor="#333333"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginTop="10dp"
+        android:background="#333333"
+        android:fontFamily="@font/aldrich"
+        android:padding="5dp"
+        android:text="AGE"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_marginTop="10dp"
+        android:background="#E8DDB5"
+        android:fontFamily="@font/aldrich"
+        android:padding="5dp"
+        android:text="in MINUTES"
+        android:textColor="#333333"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonDatePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/buttonbgColor"
+        android:fontFamily="@font/alatsi"
+        android:text="SELECT YOUR BIRTHDAY"
+        android:textColor="#E6FF00"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_marginBottom="35dp"
+        android:fontFamily="@font/advent_pro_semibold"
+        android:padding="5dp"
+        android:text="You have lived for"
+        android:textColor="#7A09EA"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/selectedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/almendra_bold"
+        android:padding="5dp"
+        android:text="n/a"
+        android:textColor="#333333"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_marginBottom="35dp"
+        android:fontFamily="@font/advent_pro_semibold"
+        android:padding="5dp"
+        android:text="Selected Date"
+        android:textColor="#7A09EA"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ageinMinutes"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/almendra_bold_italic"
+        android:padding="5dp"
+        android:text="null"
+        android:textColor="#333333"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:fontFamily="@font/advent_pro_semibold"
+        android:padding="5dp"
+        android:text="in Minutes"
+        android:textColor="#7A09EA"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
